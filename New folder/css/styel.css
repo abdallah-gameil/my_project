@@ -1,0 +1,403 @@
+
+*{   margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: linear-gradient(to right, #f24b80, #04a8de);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+.back{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.612);
+
+}
+
+.nav1{
+    background-color: rgba(0, 0, 0, 0.244) !important;
+    
+    
+}
+
+
+
+.offcanvas-title {
+color:white;
+}
+
+.navbar i{
+    color:rgb(248, 163, 5);
+}
+button i{
+    color: white !important;
+    background: none !important;;
+}
+form input {
+    background: none !important;;
+}
+.backimg {
+    
+    position: absolute;
+    left: 55%;
+    bottom: 0;
+}
+.backimg img{
+    
+    width: 110%;
+    
+
+}
+.tittel h1 {
+    font-size: 420%; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.tittel h1 span {
+    font-size: 120%;
+    color: #7c61b7;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.tittel h3 {
+    color: #7c61b7;
+    font-size: 1.8rem;
+    font-family:"Cairo", sans-serif;
+}
+.tittel p {
+    
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.tittel h1::after
+{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing {
+    0%{ content: "|";}
+    2%{ content: " F|";}
+    4%{ content: " Fr|";}
+    6%{ content: " Fre|";}
+    8%{ content: " Free|";}
+    10%{ content: " Freel|";}
+    12%{ content: " Freela|";}
+    14%{ content: " Freelan|";}
+    16%{ content: " Freelanc|";}
+    18%{ content: " Freelance|";}
+    20%{ content: " Freelancer.|";}
+    22%{ content: " Freelance|";}
+    24%{ content: " Freelanc|";}
+    26%{ content: " Freelan|";}
+    28%{ content: " Freela|";}
+    30%{ content: " Freel|";}
+    32%{ content: " Free|";}
+    34%{ content: " Fre|";}
+    36%{ content: " Fr|";}
+    38%{ content: " F|";}
+    40%{ content: " |";}
+    
+    42%{ content: "|";}
+    44%{ content: " D|";}
+    46%{ content: " De|";}
+    48%{ content: " Dev|";}
+    50%{ content: " Deve|";}
+    52%{ content: " Devel|";}
+    54%{ content: " Develo|";}
+    56%{ content: " Develop|";}
+    58%{ content: " Develope|";}
+    60%{ content: " Developer|";}
+    62%{ content: " Develope|";}
+    64%{ content: " Develop|";}
+    66%{ content: " Develo|";}
+    68%{ content: " Devel|";}
+    70%{ content: " Deve|";}
+    72%{ content: " Dev|";}
+    74%{ content: " De|";}
+    76%{ content: " D|";}
+    78%{ content: " |";}
+
+
+
+}
+
+
+.tittel{
+    color: white;
+    margin-top: 20%;
+}
+
+.anm{
+    border: whitesmoke solid 2px;
+    border-radius: 30px;
+    width: 40px;
+    height: 70px;
+    margin-top: 46%;
+    
+}
+.anm1{
+    background-color: whitesmoke;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 8%;
+    content: "";
+    animation-name: typ;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes typ {
+    0%{ margin-top: 8%;}
+    100%{ margin-top: 270%;
+    background-color: rgba(245, 245, 245, 0.058);}
+
+}
+
+
+.container2{
+    margin-top: 10%;
+}
+
+.row1 img{
+    width: 100%;
+    
+    
+}
+.row1 .hel{
+    color: crimson;
+    
+    
+}
+
+.img2{
+    
+    margin-bottom: 10%;
+    margin-top: 10%;
+    border:  7px #3d3d3de7 solid ;
+    
+    
+}
+.img2 img{
+    
+    position: relative;
+    top: 20px;
+    left: 20px;
+    
+    
+
+}
+
+.helo{
+    margin-top: 5%;
+}
+.cont{
+    
+    background-image: linear-gradient(to right, #2cbff05c,#f24b8059 );
+    border-radius: 20px;
+    width: 60%;
+    height: 20rem;
+    margin: 5% auto;
+}
+.cont img{
+    width: 50%;
+    margin: 4% 25% ;
+}
+.container3 .img1 {
+    width: 20%;
+    position: absolute;
+    left: 60%;
+    top: 205%;
+    content: "";
+animation-name: typs;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
+
+@keyframes typs {
+0%{ top: 195%;}
+50%{ top: 203%;}
+100%{ top: 195%;}
+}
+
+
+
+.conat{
+    background-color: #a382ecb0;
+    text-align: center;  
+    width: 25%; 
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 255%;
+    left: 10%;
+    padding: 1%;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+
+
+
+
+.swipercaler{
+    background-color: #7c61b7;
+    border-radius: 10px;
+}
+.imge{
+    width: 25%;
+    padding-left: 8%;
+    
+}
+.slidetit{
+    margin:6% auto ;
+    background-color: #927cc3;
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    border: white solid 2px;
+    text-align: center;
+    color: white;
+    padding: 2%;
+    
+}
+.Contact {
+    margin: 8%;
+    text-align: center;
+}
+.Contact h4 {
+    color: white;
+    font-size: 250%;
+}
+.Contact h2 {
+    color:#7c61b7;
+    font-size: 300%;
+    font-family:"Cairo", sans-serif;
+
+
+}
+
+.container4 button{
+    background: none;
+    border: #422a74 solid 2px;
+    padding: 2%;
+    color: #422a74;
+    font-weight: bolder;
+    font-size: 105%;
+    margin: 7%;
+    transition: all 0.5s;
+}
+.container4 i{
+    
+    color: #45326e !important;
+}
+.button2{
+    padding-left:20% !important;
+    padding-right:20% !important;
+}
+.button3{
+    padding-left:20% !important;
+    padding-right:20% !important;
+}
+
+.container4 button:hover {
+    background-image: linear-gradient(to right, #3b6a79f4,#77394df9 );
+    color: white !important;
+    border:  linear-gradient(to right, #3b6a79f4,#77394df9 )  solid 4px;
+
+}
+.container4 button:hover i {
+    
+    color: white !important;
+}
+
+.container5 .img3 {
+    width: 20%;
+    position: absolute;
+    left: 10%;
+    top: 320%;
+    content: "";
+animation-name: ty;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
+
+@keyframes ty {
+0%{ top: 320%;}
+50%{ top: 327%;}
+100%{ top: 320%;}
+}
+
+.container6 {
+    background-image: linear-gradient(to right, #2cbff076,#f24b8098 );
+    width: 100% !important;
+    margin-top: 4%;
+}
+.container6 h1 {
+    text-align: center;
+    margin-top: 9%;
+    font-size: 470%;
+}
+.container6 h2 {
+    color:#674ca1 ;
+}
+.container6 p{
+    color: rgba(255, 255, 255, 0.574);
+    
+}
+.container6 .who{
+text-align: end;    
+}
+.end{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.574);
+}
+table span {
+    font-weight: 550;
+    font-family:"Cairo", sans-serif;
+
+
+}
+
+.Services h2{
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+    font-size: 290%;
+}
+.project h2{
+    text-align: center;
+    color: white;
+    margin-top: 8%;
+    margin-bottom: 6%;
+    font-size: 290%;
+
+}
+.claint{
+    text-align: center;
+    color: white;
+    margin: 8%;
+}
+.claint h2{
+   font-size:290% ;
+}
